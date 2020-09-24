@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: org.linksfoundation.brainiot.helloworld
+Built-By: mclovin
+Bundle-ManifestVersion: 2
+Bnd-LastModified: 1600959471347
+Import-Package: org.linksfoundation.brainiot.helloworld;version="1.0.0
+ .SNAPSHOT",org.osgi.framework;version="1.5"
+Tool: Bnd-0.0.238
+Export-Package: org.linksfoundation.brainiot.helloworld;uses:="org.osg
+ i.framework";version="1.0.0.SNAPSHOT"
+Bundle-Name: Hello World Application
+Bundle-Version: 1.0.0.SNAPSHOT
+Bundle-Activator: org.linksfoundation.brainiot.helloworld.Activator
+Created-By: Apache Maven Bundle Plugin
+Build-Jdk: 1.8.0_265
+
